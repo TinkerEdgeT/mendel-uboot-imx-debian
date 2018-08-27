@@ -35,3 +35,4 @@ override_dh_auto_build:
 override_dh_install:
 	install -d debian/uboot-imx/boot
 	install -m 644 -o 0 -g 0 u-boot.imx debian/uboot-imx/boot/u-boot.imx
+	dh_install

@@ -1,0 +1,5 @@
+#!/bin/bash
+systemctl enable uboot-imx
+if [[ -e /dev/mmcblk0boot0 ]]; then
+  systemctl start uboot-imx
+fi
