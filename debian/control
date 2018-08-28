@@ -1,6 +1,8 @@
 Source: uboot-imx
 Maintainer: AIY Projects <support-aiyprojects@google.com>
 Build-Depends: bc, debhelper, device-tree-compiler, imx-atf, imx-firmware, imx-mkimage
+Section: misc
+Priority: optional
 
 Package: uboot-imx
 Section: misc
