@@ -26,6 +26,8 @@ override_dh_auto_build:
 		arch/arm/dts/fsl-imx8mq-phanbell.dtb > u-boot.its
 	tools/mkimage -E -p 0x3000 -f u-boot.its u-boot.itb
 
+	tools/mkimage -A arm -T script -O linux -d debian/boot.txt boot.scr
+
 	$(IMX_FIRMWARE_DIR)/mkimage_imx8 -fit \
 		-signed_hdmi $(IMX_FIRMWARE_DIR)/signed_hdmi_imx8m.bin \
 		-loader u-boot-spl-ddr.bin 0x7E1000 \
@@ -35,4 +37,5 @@ override_dh_auto_build:
 override_dh_install:
 	install -d debian/uboot-imx/boot
 	install -m 644 -o 0 -g 0 u-boot.imx debian/uboot-imx/boot/u-boot.imx
+	install -m 644 -o 0 -g 0 boot.scr debian/uboot-imx/boot/boot.scr
 	dh_install
