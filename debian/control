@@ -1,11 +1,11 @@
 Source: uboot-imx
 Maintainer: AIY Projects <support-aiyprojects@google.com>
-Build-Depends: bc, debhelper, device-tree-compiler, imx-atf, imx-firmware, imx-mkimage
+Build-Depends: bc, debhelper, device-tree-compiler, gcc-aarch64-linux-gnu, imx-atf, imx-firmware:all, imx-mkimage
 Section: misc
 Priority: optional
 
 Package: uboot-imx
 Section: misc
 Priority: required
-Architecture: arm64
+Architecture: arm64 armhf
 Description: U-Boot for the AIY Board
