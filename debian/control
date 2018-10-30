@@ -6,6 +6,6 @@ Priority: optional
 
 Package: uboot-imx
 Section: misc
-Priority: required
+Priority: optional
 Architecture: arm64 armhf
 Description: U-Boot for the AIY Board
