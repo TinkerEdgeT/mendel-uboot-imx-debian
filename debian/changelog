@@ -1,3 +1,9 @@
+uboot-imx (0.3) animal; urgency=medium
+
+  * Updated Hynix dram training config.
+
+ -- AIY Projects <support-aiyprojects@google.com>  Thu, 15 Nov 2018 16:19:33 -0800
+
 uboot-imx (0.2) unstable; urgency=medium
 
   * Fixed board_id command for SKU7.
