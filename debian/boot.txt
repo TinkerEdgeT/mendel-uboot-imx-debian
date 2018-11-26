@@ -1,5 +1,4 @@
 fdt_addr=0x43000000
-fdt_file=fsl-imx8mq-phanbell.dtb
 image=Image
 script=boot.scr
 mmc_root="PARTUUID=70672ec3-5eee-49ff-b3b1-eb1fbd406bf5"
@@ -10,6 +9,12 @@ if test ${bootdev} = 1; then
     setenv root ${sd_root}
 else
     setenv root ${mmc_root}
+fi
+
+if test ${baseboardid} = 1; then
+    setenv fdt_file fsl-imx8mq-phanbell.dtb
+elif test ${baseboardid} = 2; then
+    setenv fdt_file fsl-imx8mq-yorktown.dtb
 fi
 
 cmdline="console=ttymxc0,115200 console=tty0 earlycon=ec_imx6q,0x30860000,115200 root=${root} rootfstype=ext4 rw rootwait init=/sbin/init net.ifnames=0 pci=pcie_bus_perf"
