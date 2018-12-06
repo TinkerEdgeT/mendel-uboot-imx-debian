@@ -1,3 +1,9 @@
+uboot-imx (0.5) animal; urgency=medium
+
+  * Add fallback selection for device tree
+
+ -- AIY Projects <support-aiyprojects@google.com>  Thu, 06 Dec 2018 11:26:58 -0800
+
 uboot-imx (0.4) animal; urgency=medium
 
   * Change PMIC voltages to latest configuration. 
