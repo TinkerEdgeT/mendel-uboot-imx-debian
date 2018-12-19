@@ -38,4 +38,5 @@ override_dh_install:
 	install -d debian/uboot-imx/boot
 	install -m 644 -o 0 -g 0 u-boot.imx debian/uboot-imx/boot/u-boot.imx
 	install -m 644 -o 0 -g 0 boot.scr debian/uboot-imx/boot/boot.scr
+	install -m 644 -o 0 -g 0 debian/overlays.txt debian/uboot-imx/boot/overlays.txt
 	dh_install

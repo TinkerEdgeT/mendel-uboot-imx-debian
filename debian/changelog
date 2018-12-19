@@ -1,3 +1,9 @@
+uboot-imx (0.6) beaker; urgency=medium
+
+  * Add ability to load device tree overlays in boot partition.
+
+ -- AIY Projects <support-aiyprojects@google.com>  Tue, 15 Jan 2019 15:21:16 -0800
+
 uboot-imx (0.5) animal; urgency=medium
 
   * Add fallback selection for device tree
