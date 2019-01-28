@@ -1,3 +1,9 @@
+uboot-imx (2-1) mendel-beaker; urgency=medium
+
+  * Force USB Type-C switch to UFP (device) mode to enable fastboot.
+
+ -- AIY Projects <support-aiyprojects@google.com>  Wed, 28 Jan 2019 11:01:34 -0800
+
 uboot-imx (1-1) mendel-beaker; urgency=medium
 
   * Cut for beaker branch and version normalization.
