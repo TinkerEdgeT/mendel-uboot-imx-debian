@@ -1,5 +1,5 @@
 Source: uboot-imx
-Maintainer: AIY Projects <coral-support@google.com>
+Maintainer: Coral <coral-support@google.com>
 Build-Depends: bc, debhelper, device-tree-compiler, gcc-aarch64-linux-gnu, imx-atf, imx-firmware:all, imx-mkimage
 Section: misc
 Priority: optional
