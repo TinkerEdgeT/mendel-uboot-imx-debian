@@ -1,3 +1,9 @@
+uboot-imx (3-1) mendel-chef; urgency=medium
+
+  * Cut for chef release
+
+ -- Coral <coral-support@google.com>  Tue, 19 Mar 2019 17:08:25 -0700
+
 uboot-imx (2-1) mendel-beaker; urgency=medium
 
   * Force USB Type-C switch to UFP (device) mode to enable fastboot.
