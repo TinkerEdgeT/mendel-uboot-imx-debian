@@ -9,3 +9,9 @@ Section: misc
 Priority: optional
 Architecture: arm64 armhf
 Description: U-Boot for the AIY Board
+
+Package: uboot-mkimage
+Section: misc
+Priority: optional
+Architecture: all
+Description: mkimage tool from uboot
