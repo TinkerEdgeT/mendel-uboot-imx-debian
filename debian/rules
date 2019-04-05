@@ -7,7 +7,7 @@
 IMX_FIRMWARE_DIR=/usr/share/imx-firmware/imx8m
 
 %:
-	dh $@
+	dh $@ --with systemd
 
 override_dh_auto_build:
 	make CROSS_COMPILE=aarch64-linux-gnu- ARCH=arm mx8mq_phanbell_defconfig _all
