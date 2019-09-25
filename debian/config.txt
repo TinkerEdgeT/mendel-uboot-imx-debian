@@ -1,5 +1,5 @@
 
-#Hardware Interface Config
+##### Hardware Interface Config #####
 
 intf:uart1=on
 #intf:uart3=off
@@ -11,3 +11,7 @@ intf:uart1=on
 #intf:pwm1=off
 #intf:pwm2=off
 #intf:pwm3=off
+
+##### List of device tree overlays to load. Format: overlay=<dtbo name, no extension> <dtbo2> ... #####
+
+overlay=
