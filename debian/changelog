@@ -1,6 +1,7 @@
 uboot-imx (3-3) mendel-day; urgency=medium
 
   * Updating the training programs for Micron.
+  * Ensuring Hynix boards also use the same timing as Micron.
 
  -- Coral <coral-support@google.com>  Wed, 27 Mar 2019 15:21:16 -0700
 
