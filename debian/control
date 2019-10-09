@@ -3,7 +3,6 @@ Maintainer: Coral <coral-support@google.com>
 Build-Depends: bc,
                debhelper (>=10),
                device-tree-compiler,
-               dh-systemd,
                gcc-aarch64-linux-gnu,
                imx-atf,
                imx-firmware:all,
