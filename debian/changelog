@@ -1,3 +1,9 @@
+uboot-imx (4-3) mendel-day; urgency=medium
+
+  * Revert to the previous timing file used in Chef.
+
+ -- Coral <coral-support@google.com>  Fri, 08 Nov 2019 16:29:30 -0600
+
 uboot-imx (4-2) mendel-day; urgency=medium
 
   * Enable USB wakeup support.
