@@ -1,16 +1,4 @@
 
-##### Hardware Interface Config #####
-
-intf:uart1=on
-#intf:uart3=off
-#intf:uart4=off
-#intf:sai1=off
-#intf:sai5=off
-#intf:spi1=off
-#intf:pwm1=off
-#intf:pwm2=off
-#intf:pwm3=off
-
 ##### Driver Config #####
 
 conf:eth_wakeup=on
