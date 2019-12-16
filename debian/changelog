@@ -1,3 +1,11 @@
+uboot-imx (4-4) mendel-day; urgency=medium
+
+  * Revert revert to the previous timing file used in Chef.
+  * Update DDRC settings.
+  * Apply MLK-22578 to imx8mq.
+
+ -- Coral <coral-support@google.com>  Mon, 16 Dec 2019 15:21:49 -0800
+
 uboot-imx (4-3) mendel-day; urgency=medium
 
   * Revert to the previous timing file used in Chef.
