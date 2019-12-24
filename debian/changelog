@@ -1,3 +1,9 @@
+uboot-imx (4-5) mendel-day; urgency=medium
+
+  * Upgrade to uboot 4.19
+
+ -- Coral <coral-support@google.com>  Mon, 23 Dec 2019 17:42:30 -0800
+
 uboot-imx (4-4) mendel-day; urgency=medium
 
   * Revert revert to the previous timing file used in Chef.

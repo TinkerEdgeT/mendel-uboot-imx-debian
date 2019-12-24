@@ -6,7 +6,9 @@ Build-Depends: bc,
                gcc-aarch64-linux-gnu,
                imx-atf,
                imx-firmware:all,
-               imx-mkimage
+               imx-mkimage,
+	       bison,
+	       flex
 Section: misc
 Priority: optional
 Standards-Version: 3.9.8
