@@ -1,3 +1,10 @@
+uboot-imx (5-1) mendel-day; urgency=medium
+
+  * uboot 4.19
+  * Update memory training to fix temp related hang
+
+ -- Coral <coral-support@google.com>  Wed, 29 Apr 2020 11:40:05 -0700
+
 uboot-imx (4-5) mendel-day; urgency=medium
 
   * Upgrade to uboot 4.19
