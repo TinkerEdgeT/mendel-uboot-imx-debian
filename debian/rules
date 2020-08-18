@@ -41,6 +41,7 @@ override_dh_install:
 	install -m 644 -o 0 -g 0 debian/overlays.txt debian/uboot-imx/boot/overlays.txt
 	install -d debian/uboot-mkimage/usr/bin
 	install -m 644 -o 0 -g 0 tools/mkimage debian/uboot-mkimage/usr/bin/mkimage
+	install -m 644 -o 0 -g 0 debian/splash.bmp debian/uboot-imx/boot/splash.bmp
 	dh_install
 
 override_dh_strip:
