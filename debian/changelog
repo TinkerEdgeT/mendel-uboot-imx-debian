@@ -1,3 +1,10 @@
+uboot-imx (5-2) mendel-eagle; urgency=medium
+
+  * uboot 4.19
+  * Update New Kingston 2GB timings for MP boards
+
+ -- Coral <coral-support@google.com>  Mon, 11 Jan 2021 13:43:00 -0700
+
 uboot-imx (5-1) mendel-day; urgency=medium
 
   * uboot 4.19
